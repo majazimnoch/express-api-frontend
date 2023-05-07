@@ -21,9 +21,9 @@ const VeryHigh = () => {
             <p>Rank: {country.Rank}</p>
             <p>Maternal Mortality: {country.Maternal_mortality}</p>
             <p>Adolescent Birth Rate: {country.Adolescent_birth_rate}</p>
-            <p>Seats in Parliament: {country.Seats_parliament}</p>
-            <p>Female Secondary Education: {country.F_secondary_educ}</p>
-            <p>Male Secondary Education: {country.M_secondary_educ}</p>
+            <p>Seats in Parliament: {country.Seats_parliament}%</p>
+            <p>Female Secondary Education: {country.F_secondary_educ}%</p>
+            <p>Male Secondary Education: {country.M_secondary_educ}%</p>
             <p>Female Labour Force: {country.F_Labour_force}%</p>
             <p>Male Labour Force: {country.M_Labour_force}%</p>
           </li>
