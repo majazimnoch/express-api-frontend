@@ -89,6 +89,28 @@ button:hover {
   padding: 15px 20px;
 }
 
+
+@media (min-width:668px) and (max-width:1023px) {
+
+  .header {
+    background-size: cover;
+    padding: 2rem;
+    background-image: url(./assets/map.jpg);
+    text-align: left;
+    max-width: 1023px;
+    height: 50vh;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+  }
+
+}
+
 @media (max-width:668px) {
 
   .header {
@@ -96,7 +118,7 @@ button:hover {
     padding: 2rem;
     background-image: url(./assets/map.jpg);
     text-align: left;
-    max-width: 320px;
+    max-width: 668px;
     height: 50vh;
   }
 
