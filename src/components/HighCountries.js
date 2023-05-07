@@ -9,7 +9,7 @@ const HighCountries = () => {
   }, []);
   return (
     <div>
-      <h1>Countries with High development level</h1>
+      <h3>Countries with High development level</h3>
       <ul>
         {countries.map((country) => (
           <li key={country.Country}>

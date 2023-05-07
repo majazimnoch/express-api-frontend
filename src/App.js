@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Header from 'components/Header'
 import Links from 'components/Links'
 import LowCountries from 'components/LowCountries'
 import MediumCountries from 'components/MediumCountries'
@@ -9,7 +10,8 @@ import VeryHigh from 'components/VeryHigh'
 export const App = () => {
   return (
     <BrowserRouter>
-      <main>
+      <Header />
+      <div className="wrapper">
         <Links />
         <Routes>
           <Route path="/low" element={<LowCountries />} />
@@ -17,7 +19,7 @@ export const App = () => {
           <Route path="/high" element={<HighCountries />} />
           <Route path="/very" element={<VeryHigh />} />
         </Routes>
-      </main>
+      </div>
     </BrowserRouter>
   )
 }
